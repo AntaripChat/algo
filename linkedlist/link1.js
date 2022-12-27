@@ -22,7 +22,7 @@ class Linklist{
 
     print(){
         let current = this.head;
-        while(current.next != null){
+        while(current != null){
             console.log(current.number);
             current = current.next;
         };
