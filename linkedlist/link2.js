@@ -15,7 +15,7 @@ class Linklist{
             this.head = val;
         }else{
             let vlu = this.head;
-            while(vlu.next != nu)
+            // while(vlu.next != nu)
         }
     }
 }
