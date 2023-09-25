@@ -1,14 +1,8 @@
-console.log("Hello World");
-
-setTimeout(function(){
-    console.log("Hello world 2");
-},2000);
+const print = require('./print');
 
 
-console.log("Hello World 3");
+print("Hello world");
 
-
-
-
-
-
+for(let i = 0; i < 10; i++){
+    print(i+i)
+}
